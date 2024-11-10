@@ -1,0 +1,181 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta name="generator" content="Primo" />
+      <title>Unikat Möbel | Exponate</title><!-- HEAD_svelte-68smer_START --><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="UTF-8"><link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,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"><link rel="preconnect" href="https://fonts.bunny.net"><meta name="description" content=""><style>/* Reset & standardize default styles */
+@import url("https://unpkg.com/@primo-app/primo@1.3.64/reset.css") layer;
+
+/* Design tokens (apply to components) */
+:root {
+  /* Custom theme options */
+  --color-accent: #004700;
+
+  /* Base values */
+  --box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
+  --border-radius: 0;
+  --border-color: #e0e1e1;
+}
+
+/* Root element (use instead of `body`) */
+#page {
+  font-family: system-ui, sans-serif;
+  color: #111;
+  line-height: 1.5;
+  font-size: 1.125rem;
+  background: white;
+}
+
+/* Elements */
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+}
+
+a.link {
+  line-height: 1.3;
+
+  border-bottom: 2px solid var(--color-accent);
+  transform: translateY(-2px); /* move link back into place */
+  transition: var(--transition, 0.1s border);
+}
+
+a.link:hover {
+    border-color: transparent;
+  }
+
+.heading {
+  font-size: 2.5rem;
+  line-height: 1.15;
+
+}
+
+.button {
+  color: white;
+  background: var(--color-accent, rebeccapurple);
+  border-radius: 0;
+  padding: 18px 24px;
+  transition: var(--transition, 0.1s box-shadow);
+  border: 0;
+}
+
+/* reset */
+
+.button:hover {
+    box-shadow: 0 0 0 2px var(--color-accent, rebeccapurple);
+  }
+
+.button.inverted {
+    background: transparent;
+    color: var(--color-accent, rebeccapurple);
+  }
+
+/* Content Section */
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+.content p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+.content img {
+    width: 100%;
+    margin: 2rem 0;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+  }
+.content a.link {
+    line-height: 1.3;
+    font-weight: 500;
+    border-bottom: 2px solid var(--color-accent);
+    transform: translateY(-2px); /* move link back into place */
+    transition: var(--transition, 0.1s border);
+  }
+.content a.link:hover {
+      border-color: transparent;
+    }
+.content h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+  }
+.content h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+.content h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+.content ul {
+    list-style: disc;
+    padding: 0.5rem 0;
+    padding-left: 1.25rem;
+  }
+.content ol {
+    list-style: decimal;
+    padding: 0.5rem 0;
+    padding-left: 1.25rem;
+  }
+.content blockquote {
+    padding: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-left: 5px solid var(--color-accent);
+  }
+</style><!-- HEAD_svelte-68smer_END -->
+      <style>.section-container.svelte-136lx2d.svelte-136lx2d{display:flex;justify-content:space-between;align-items:center;padding-block:2rem}.logo.svelte-136lx2d.svelte-136lx2d{font-size:1.5rem;font-weight:600;line-height:1.2}.desktop-nav.svelte-136lx2d.svelte-136lx2d{display:none;align-items:center;justify-content:space-between;width:100%}.desktop-nav.svelte-136lx2d nav.svelte-136lx2d{display:flex;gap:2rem}.desktop-nav.svelte-136lx2d nav a.link.svelte-136lx2d{border-color:transparent;transition:border-color 0.1s;font-size:0.95rem}.desktop-nav.svelte-136lx2d nav a.link.svelte-136lx2d:hover,.desktop-nav.svelte-136lx2d nav a.link .active.svelte-136lx2d{border-color:initial}@media(min-width: 800px){.desktop-nav.svelte-136lx2d.svelte-136lx2d{display:flex
+}}.mobile-nav.svelte-136lx2d.svelte-136lx2d{display:flex;align-items:center;justify-content:space-between;width:100%;font-weight:500}@media(min-width: 800px){.mobile-nav.svelte-136lx2d.svelte-136lx2d{display:none
+}}#popup.svelte-136lx2d.svelte-136lx2d{font-size:1.25rem;display:grid;gap:1rem;position:absolute;text-align:center;background-color:var(--background-color, white);box-shadow:var(--box-shadow, 0px 4px 30px rgba(0, 0, 0, 0.1));border-radius:var(--border-radius);inset:0.5rem;bottom:initial;padding:2rem;z-index:1}#popup.svelte-136lx2d button#close.svelte-136lx2d{position:absolute;right:1rem;top:1rem}
+.teasers.svelte-zvxqyf.svelte-zvxqyf{display:grid;gap:6rem}.teaser.svelte-zvxqyf.svelte-zvxqyf{display:grid;gap:3rem}.teaser.svelte-zvxqyf img.svelte-zvxqyf{width:100%;border-radius:var(--border-radius)}.teaser.svelte-zvxqyf .body.svelte-zvxqyf{display:grid;place-items:flex-start;gap:1.5rem;padding:0;line-height:1.5}.teaser.svelte-zvxqyf .body .title.svelte-zvxqyf{font-size:2.25rem;font-weight:500;line-height:1.25}@media(min-width: 800px){.teaser.svelte-zvxqyf.svelte-zvxqyf{grid-template-columns:1fr 1fr;place-items:center
+
+    /* switch direction for even items */
+}.teaser.svelte-zvxqyf:nth-child(even) .body.svelte-zvxqyf{grid-row:1;grid-column:2}.teaser.svelte-zvxqyf:nth-child(even) img.svelte-zvxqyf{grid-row:1;grid-column:1}}@media(min-width: 1200px){section.svelte-zvxqyf.svelte-zvxqyf{gap:6rem}.teaser.svelte-zvxqyf.svelte-zvxqyf{gap:6rem}}
+footer.svelte-u1zmy0.svelte-u1zmy0{background:#2b312b;color:white}.section-container.svelte-u1zmy0.svelte-u1zmy0{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4rem}.content.svelte-u1zmy0.svelte-u1zmy0{margin:initial;padding:0;line-height:1.1}.nav-items.svelte-u1zmy0.svelte-u1zmy0{display:flex;flex-wrap:wrap;gap:4rem}.nav-items.svelte-u1zmy0 ul.svelte-u1zmy0{display:grid;gap:0.5rem}.nav-items.svelte-u1zmy0 ul .link.svelte-u1zmy0{border-bottom:2px solid white}.nav-items.svelte-u1zmy0 ul .link.svelte-u1zmy0:hover{border-color:transparent}.nav-items.svelte-u1zmy0 h3.svelte-u1zmy0{font-weight:500;font-size:1.5rem;margin-bottom:1rem}</style>
+    </head>
+    <body id="page">
+       
+<div class="section" id="section-ad46986e"><header class="section-container svelte-136lx2d"><div class="desktop-nav svelte-136lx2d"><a href="/" class="logo svelte-136lx2d">Unikat Möbel</a>
+    <nav class="svelte-136lx2d"><a class="link svelte-136lx2d" href="/">Startseite</a><a class="link svelte-136lx2d" href="/akteuelles">Aktuelles</a><a class="link svelte-136lx2d" href="/wir">Über uns</a><a class="link svelte-136lx2d" href="/exponate">Exponate</a><a class="link svelte-136lx2d" href="/kontakt">Kontakt</a></nav></div>
+  <div class="mobile-nav svelte-136lx2d"><a href="/" class="logo svelte-136lx2d">Unikat Möbel</a>
+    <button id="open" aria-label="Open mobile navigation"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden role="img" width="30" height="30" viewBox="0 0 24 24" class="iconify iconify--eva"><!-- HTML_TAG_START --><rect width="18" height="2" x="3" y="11" fill="currentColor" rx=".95" ry=".95"/><rect width="18" height="2" x="3" y="16" fill="currentColor" rx=".95" ry=".95"/><rect width="18" height="2" x="3" y="6" fill="currentColor" rx=".95" ry=".95"/><!-- HTML_TAG_END --></svg></button>
+    </div></header></div> 
+<div class="section" id="section-019cc2be"><section class="section-container svelte-zvxqyf"><div class="teasers svelte-zvxqyf"><div class="teaser svelte-zvxqyf"><div class="body svelte-zvxqyf"><h2 class="title svelte-zvxqyf">Discover the unseen</h2>
+          <div class="description"><!-- HTML_TAG_START --><p>Dive into a world full of hidden mysteries and breathtaking views. Explore the unexplored corners of the Earth from the comfort of your own home. </p><!-- HTML_TAG_END --></div>
+          <a class="link svelte-zvxqyf" href="/">Read more
+            </a></div>
+        <img src="https://images.unsplash.com/photo-1538935732373-f7a495fea3f6?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=2759&amp;q=80" alt="" class="svelte-zvxqyf">
+      </div><div class="teaser svelte-zvxqyf"><div class="body svelte-zvxqyf"><h2 class="title svelte-zvxqyf">Dive off the coast</h2>
+          <div class="description"><!-- HTML_TAG_START --><p>Discover a world full of hidden mysteries and breathtaking views. Explore the unexplored corners of the Earth from the comfort of your own home</p><!-- HTML_TAG_END --></div>
+          <a class="link svelte-zvxqyf" href="/">Learn more
+            </a></div>
+        <img src="https://images.unsplash.com/photo-1462331321792-cc44368b8894?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=2153&amp;q=80" alt="" class="svelte-zvxqyf">
+      </div></div></section></div> 
+<div class="section" id="section-4c040191"><footer class="svelte-u1zmy0"><div class="section-container svelte-u1zmy0"><div class="content svelte-u1zmy0"><!-- HTML_TAG_START --><h3 id="unikatmbelbr">Unikat Möbel <br></h3>
+<p>Steffen Segner &amp; Reinhard Dunkel</p><!-- HTML_TAG_END --></div>
+    <div class="nav-items svelte-u1zmy0"><nav><h3 class="svelte-u1zmy0"></h3>
+          <ul class="svelte-u1zmy0"><li><a class="link svelte-u1zmy0" href="/impressum">Impressum</a>
+              </li></ul>
+        </nav></div></div></footer></div> 
+
+      <script type="module">
+      import('/_symbols/94f761f3-1dc6-4dfa-a5f9-bc7b9a4f3dd9.js')
+      .then(({default:App}) => {
+        
+            new App({
+              target: document.querySelector('#section-ad46986e'),
+              hydrate: true,
+              props: {"logo":{"image":{"alt":"","src":"","url":"","size":null},"title":"Unikat Möbel"},"site_nav":[{"link":{"url":"/","label":"Startseite"}},{"link":{"url":"/akteuelles","label":"Aktuelles"}},{"link":{"url":"/wir","label":"Über uns"}},{"link":{"url":"/exponate","label":"Exponate","active":false}},{"link":{"url":"/kontakt","label":"Kontakt","active":false}}]}
+            })
+          
+      })
+      .catch(e => console.error(e))
+    </script>
+    </body>
+  </html>
+  
